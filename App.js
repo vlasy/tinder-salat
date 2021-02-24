@@ -1,14 +1,14 @@
-import React from "react";
-import { Text } from "react-native";
-import { createBottomTabNavigator, createAppContainer } from "react-navigation";
-import styles from "./assets/styles";
+// import React from "react";
+//import { Text } from "react-native";
+import { createStackNavigator, createAppContainer } from "react-navigation";
+//import styles from "./assets/styles";
 import HomeScreen from "./containers/Home";
-import MatchesScreen from "./containers/Matches";
+/* import MatchesScreen from "./containers/Matches";
 import MessagesScreen from "./containers/Messages";
-import ProfileScreen from "./containers/Profile";
-import Icon from "./components/Icon";
+import ProfileScreen from "./containers/Profile"; */
+//import Icon from "./components/Icon";
 
-const App = createBottomTabNavigator(
+const App = createStackNavigator(
 	{
 		Explore: {
 			screen: HomeScreen,
@@ -23,7 +23,7 @@ const App = createBottomTabNavigator(
 				}
 			}
 		},
-		Matches: {
+		/* Matches: {
 			screen: MatchesScreen,
 			navigationOptions: {
 				tabBarIcon: ({ focused }) => {
@@ -61,7 +61,7 @@ const App = createBottomTabNavigator(
 					);
 				}
 			}
-		}
+		} */
 	},
 	{
 		tabBarOptions: {

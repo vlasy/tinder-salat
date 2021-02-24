@@ -14,10 +14,10 @@ const Home = () => {
       style={styles.bg}
     >
       <View style={styles.containerHome}>
-        <View style={styles.top}>
+        {/* <View style={styles.top}>
           <City />
           <Filters />
-        </View>
+        </View> */}
 
         <CardStack
           loop={true}
@@ -30,7 +30,6 @@ const Home = () => {
               <CardItem
                 image={item.image}
                 name={item.name}
-                description={item.description}
                 matches={item.match}
                 actions
                 onPressLeft={() => this.swiper.swipeLeft()}

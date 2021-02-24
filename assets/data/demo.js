@@ -1,81 +1,91 @@
 module.exports = [
 	{
 		id: 1,
-		name: 'Leanne Graham',
+		name: 'Majonézový',
 		status: 'Online',
-		match: '78',
+		match: '95',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		message:
 			'I will go back to Gotham and I will fight men Iike this but I will not become an executioner.',
-		image: require('../images/01.jpg')
+		image: require('../images/majonezovy.jpg')
 	},
 	{
 		id: 2,
-		name: 'Clementine Bauch',
+		name: 'Okurkový',
 		match: '93',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Offline',
 		message: "Someone like you. Someone who'll rattle the cages.",
-		image: require('../images/02.jpg')
+		image: require('../images/okurkovy.jpg')
 	},
 	{
 		id: 3,
-		name: 'Ervin Howell',
+		name: 'Coleslaw',
 		match: '45',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Offline',
 		message:
 			'Oh, hee-hee, aha. Ha, ooh, hee, ha-ha, ha-ha. And I thought my jokes were bad.',
-		image: require('../images/03.jpg')
+		image: require('../images/coleslaw.jpg')
 	},
 	{
 		id: 4,
-		name: 'John Lebsack',
+		name: 'Těstovinový',
 		match: '88',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Online',
 		message: "Bats frighten me. It's time my enemies shared my dread.",
-		image: require('../images/04.jpg')
+		image: require('../images/testovinovy.jpg')
+	},
+	{
+		id: 11,
+		name: 'Zelný',
+		match: '88',
+		description:
+			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
+		status: 'Online',
+		message: "Bats frighten me. It's time my enemies shared my dread.",
+		image: require('../images/zelny.jpg')
 	},
 	{
 		id: 5,
-		name: 'James Dietrich',
+		name: 'Ala krab',
 		match: '76',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Offline',
 		message: "It's not who I am underneath but what I do that defines me.",
-		image: require('../images/05.jpg')
+		image: require('../images/alakrab.jpg')
 	},
 	{
 		id: 6,
-		name: 'Patricia Schulist',
-		match: '95',
+		name: 'Z červené řepy',
+		match: '78',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Online',
 		message:
 			'You have nothing, nothing to threaten me with. Nothing to do with all your strength.',
-		image: require('../images/06.jpg')
+		image: require('../images/cervenarepa.jpg')
 	},
 	{
 		id: 7,
-		name: 'Chelsey Weissnat',
+		name: 'Feferoňák',
 		match: '67',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Online',
 		message:
 			"Never start with the head. The victim gets all fuzzy. He can't feel the next... See?",
-		image: require('../images/07.jpg')
+		image: require('../images/feferonak.jpg')
 	},
 	{
 		id: 8,
-		name: 'Nicky Runol',
+		name: 'Mrkvový',
 		match: '85',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
@@ -88,28 +98,28 @@ module.exports = [
 		status: 'Online',
 		message:
 			"And as for the television's so-called plan, Batman has no jurisdiction.",
-		image: require('../images/08.jpg')
+		image: require('../images/mrkvovy.jpg')
 	},
 	{
 		id: 9,
-		name: 'Glenna Reichert',
+		name: 'Vlašák',
 		match: '74',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Online',
 		message:
 			'This is what happens when an unstoppable force meets an immovable object.',
-		image: require('../images/09.jpg')
+		image: require('../images/vlasak.jpg')
 	},
 	{
 		id: 10,
-		name: 'Kurtis DuBuque',
+		name: 'Vajíčkový',
 		match: '98',
 		description:
 			'Full-time Traveller. Globe Trotter. Occasional Photographer. Part time Singer/Dancer.',
 		status: 'Offline',
 		message:
 			'You want order in Gotham. Batman must take off his mask and turn himself in.',
-		image: require('../images/10.jpg')
+		image: require('../images/vajickovy.jpg')
 	}
 ];

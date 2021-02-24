@@ -1,4 +1,4 @@
-package com.tinderreact;
+package com.tindersalat;
 
 import android.app.Application;
 
